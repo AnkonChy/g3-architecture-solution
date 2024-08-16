@@ -32,6 +32,11 @@ body {
   border: none;
 }
 
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
 /* nav styles */
 header {
   background: rgba(255, 144, 14, 0.1);
@@ -97,6 +102,39 @@ nav {
   font-size: 1rem;
   font-weight: 400;
   width: 868px;
+}
+
+/* feature team styles  */
+
+.feature-team-container {
+  margin-top: 85px;
+  align-items: center;
+}
+
+.feature-team-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.feature-content {
+  margin-left: 73px;
+  max-width: 537px;
+  height: 304px;
+}
+.feature-des {
+  margin-top: 24px;
+  color: rgb(114, 114, 114);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.title2 {
+  color: rgb(114, 114, 114);
+}
+
+.title3 {
+  color: rgb(255, 144, 14);
 }
 
 /* mobile responsive  */
