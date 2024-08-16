@@ -137,6 +137,74 @@ nav {
   color: rgb(255, 144, 14);
 }
 
+/* featuresLove styles  */
+.featuresLove-container {
+  display: flex;
+  gap: 146px;
+  margin-top: 130px;
+}
+
+.featuresLove-des {
+  margin-top: 24px;
+  margin-bottom: 30px;
+  width: 586px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(114, 114, 114);
+}
+
+.love {
+  margin-bottom: 20px;
+  width: 586px;
+  height: 171px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+}
+
+.love > h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 30px 0px 10px 33px;
+}
+
+.love > p {
+  padding: 10px 42px 30px 33px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(114, 114, 114);
+}
+
+.featuresLove-img {
+  z-index: 1;
+  position: relative;
+  height: 982px;
+}
+
+.experience {
+  position: absolute;
+  left: -76px;
+  bottom: -73px;
+  width: 300px;
+  height: 180px;
+  border-radius: 8px;
+  background: rgb(255, 144, 14);
+}
+
+.experience h1 {
+  font-size: 3.4rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  padding: 45px 45px 5px 45px;
+}
+
+.experience p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  padding: 0px 45px 0px 81px;
+}
+
 /* mobile responsive  */
 @media screen and (max-width: 576px) {
   /* shared styles  */
@@ -176,9 +244,7 @@ nav {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .feature-content{
+  .feature-content {
     margin-left: 25px;
   }
-
-
 }
